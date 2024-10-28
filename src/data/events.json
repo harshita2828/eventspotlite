@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Music Festival",
+    "date":"01-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/music.jpg",
+    "description" : "Join us for a lively day filled with music from various genres. Enjoy performances from local bands and artists while indulging in delicious food from vendors."
+  },
+  {
+    "id": 2,
+    "name": "Art Exhibition",
+    "date": "03-11-2024",
+    "location": "Art Gallery",
+    "image" : "/assets/eventimages/art.jpg",
+    "description" : "Explore a stunning collection of contemporary and traditional art from local and international artists. Engage with the creators and learn about their inspirations."
+  },
+  {
+    "id": 3,
+    "name": "Clothing Festival",
+    "date": "05-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/clothing.jpg",
+    "description" : "A celebration of fashion featuring local designers. Browse through unique clothing stalls, attend workshops, and enjoy live fashion shows throughout the day."
+  },
+  {
+    "id": 4,
+    "name": "Crockery Exhibition",
+    "date": "07-11-2024",
+    "location": "Art Gallery",
+    "image" : "/assets/eventimages/crokery.jpeg",
+    "description" : "Discover exquisite crockery pieces from renowned artisans. Participate in interactive sessions on the history and craftsmanship of crockery making."
+  },
+  {
+    "id": 5,
+    "name": "Handloom Festival",
+    "date": "09-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/handloom.jpg",
+    "description" : "Experience the beauty of handwoven textiles. Meet skilled weavers, attend demonstrations, and shop for unique handloom products directly from the artisans."
+  },
+  {
+    "id": 6,
+    "name": "Spices Exhibition",
+    "date": "11-11-2024",
+    "location": "Art Gallery",
+    "image" : "/assets/eventimages/spices.jpg",
+    "description" : "Immerse yourself in the world of spices. Learn about their origins, health benefits, and culinary uses while tasting a variety of spice-infused dishes."
+  },
+  {
+    "id": 7,
+    "name": "Rides Festival",
+    "date": "13-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/rides.jpg",
+    "description" : "A fun-filled day for families with rides, games, and entertainment. Enjoy thrilling rides, carnival games, and tasty snacks in a festive atmosphere."
+  },
+    {
+      "id": 8,
+      "name": "Books Exhibition",
+      "date": "15-11-2024",
+      "location": "Art Gallery",
+      "image" : "/assets/eventimages/books.jpg",
+      "description" : "A paradise for book lovers! Browse a wide selection of books, meet authors, and attend book signings and readings from various genres."
+    },
+  {
+    "id": 9,
+    "name": "Food Festival",
+    "date": "17-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/food.jpg",
+    "description" : "Savor delicious cuisines from around the world. Enjoy cooking demonstrations, food tastings, and learn new recipes from top chefs."
+  },
+  {
+    "id": 10,
+    "name": "Handicraft Exhibition",
+    "date": "19-11-2024",
+    "location": "Art Gallery",
+    "image" : "/assets/eventimages/handicraft.jpg",
+    "description" : "Explore beautiful handicrafts from local artisans. Find unique handmade items and participate in workshops to create your own crafts."
+  },
+  {
+    "id": 11,
+    "name": "Furniture Festival",
+    "date": "21-11-2024",
+    "location": "Downtown Park",
+    "image" : "/assets/eventimages/furniture.jpg",
+    "description" : "Showcasing innovative designs and craftsmanship in furniture. Meet designers, attend talks, and find the perfect pieces for your home."
+  },
+  {
+    "id": 12,
+    "name": "Jewellery Exhibition",
+    "date": "23-11-2024",
+    "location": "Art Gallery",
+    "image" : "/assets/eventimages/jewellary.jpg",
+    "description" : "A showcase of stunning jewellery from local and international designers. Discover unique pieces and participate in jewellery-making workshops."
+  }
+]
