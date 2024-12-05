@@ -8,14 +8,14 @@
 
 .esl {
   text-align: center;
-  margin: 7vh 0 0 0vw;
+  margin: 4vh 0 0 0vw;
   font-size: 2vw;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  /* background-color: #f4f4f9; */
+  /* color: #333; */
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -35,7 +35,7 @@ a {
 .text-center {
   text-align: center;
 
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .mb-1 {
@@ -51,7 +51,6 @@ a {
 }
 .App {
   background: #eeeeee;
-  height: 100vh;
 }
 @keyframes gradientAnimation {
   0% {

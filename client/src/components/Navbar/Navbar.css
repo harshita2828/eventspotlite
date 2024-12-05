@@ -1,0 +1,141 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 80px;
+  background-color: #202020;
+  opacity: 0.9;
+  color: white;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navbar Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #f0c929;
+}
+
+/* Search Bar Styles */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+}
+
+.search-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #6d9886;
+  transform: scale(1.05);
+}
+
+/* Button Styles */
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6d9886;
+  transform: scale(1.05);
+}
+
+.login-signup-btn{
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 2vw;
+}
+
+/* Mobile Menu Icon */
+.mobile-menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  gap: 15px;
+  padding: 10px 0;
+  transform: translateX(100%); 
+  align-items: center;
+  list-style: none;
+  z-index: 10;
+}
+
+.nav-links-mobile.active {
+  transform: translateX(0); 
+}
+
+/* Responsive Design */
+@media (max-width: 666px) {
+  .nav-links{
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: flex; 
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .search-container {
+    display: none;
+  }
+}

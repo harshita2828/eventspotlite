@@ -8,7 +8,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  background: linear-gradient(45deg, #6d9886, #86a6d9, #d9a6c2, #ffd28c);
+  background-color: black;
   background-size: 400% 400%;
   animation: colorChange 8s ease infinite;
 }
