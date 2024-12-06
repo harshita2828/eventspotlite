@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  overflow: hidden;
   width: 100%;
   max-width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
@@ -11,6 +10,7 @@
   background-color: black;
   background-size: 400% 400%;
   animation: colorChange 8s ease infinite;
+ 
 }
 
 .event-card:hover {

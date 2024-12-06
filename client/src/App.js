@@ -9,6 +9,7 @@ import ContactPage from "./pages/Contact";
 import LoginPage from "./pages/Login";
 import SignUpPage from "./pages/Signup";
 import Footer from "./components/Footer/Footer";
+import AboutUsPage from "./pages/Aboutus";
 
 const App = () => {
   const [events, setEvents] = useState([]);
@@ -78,6 +79,7 @@ const App = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/about" element={<AboutUsPage />} />
         </Routes>
         
       </div>

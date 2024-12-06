@@ -32,11 +32,11 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="/events"
+            to="/about"
             className="nav-item"
             onClick={() => setIsMobile(false)}
           >
-            Events
+            About
           </Link>
         </li>
         <li>
